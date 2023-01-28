@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">GTEscolar</string>
+    <string name="add_disciplina">add disciplina</string>
+    <string name="disciplinas">DISCIPLINAS</string>
+    <string name="dateFormat">dd/MM/yyyy</string>
+    <string name="deleteMessage">Deleted</string>
+    <string name="FailDeleteMessage">Fail on Delete</string>
+    <string name="dbEmpty">Database is empty</string>
+    <string name="teste">Teste</string>
+    <string name="continua">Continua</string>
+    <string name="exame">Exame</string>
+    <string name="recurso">Recurso</string>
+    <string name="trabalho">Trabalho</string>
+    <string name="individual">Individual</string>
+    <string name="grupo">Grupo</string>
+    <string name="seminario">Seminario</string>
+    <string name="agendaMessage">Agendado com sucesso</string>
+    <string name="FailInsertMessage">Falha ao inserir</string>
+    <string name="EmptyViewMessage">Insira Disciplina.</string>
+    <string name="teste1">1º teste</string>
+    <string name="teste2">2º teste</string>
+    <string name="semestre1">1º semestre</string>
+    <string name="semestre2">2º semestre</string>
+    <string name="ano1">1º ano</string>
+    <string name="ano2">2º ano</string>
+    <string name="ano3">3º ano</string>
+    <string name="ano4">4º ano</string>
+
+    <string-array name="types_array">
+        <item>Teste</item>
+        <item>Trabalho</item>
+        <item>Seminario</item>
+    </string-array>
+
+    <string-array name="types_test_evaluation_array">
+        <item>AV_Continua</item>
+        <item>Exame</item>
+        <item>Recurso</item>
+    </string-array>
+
+    <string-array name="types_work_evaluation_array">
+        <item>Individual</item>
+        <item>Grupo</item>
+    </string-array>
+
+    <string-array name="anos_array">
+        <item>1º ano</item>
+        <item>2º ano</item>
+        <item>3º ano</item>
+        <item>4º ano</item>
+    </string-array>
+
+    <string-array name="semestres_array">
+        <item>1º semestre</item>
+        <item>2º semestre</item>
+    </string-array>
+
+    <string-array name="titulo_array">
+        <item>1º teste</item>
+        <item>2º teste</item>
+    </string-array>
+</resources>
