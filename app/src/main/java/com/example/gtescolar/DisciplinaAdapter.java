@@ -193,7 +193,7 @@ public class DisciplinaAdapter extends RecyclerView.Adapter<DisciplinaAdapter.Vi
 
         for(int i = 0; i<tarefas.size();i++){
             if(tarefas.get(i).getSemester().equals("1º semestre")){
-                if(anos.get(position).equals(tarefas.get(i).getYear())){
+                if(tarefas.get(i).getYear().equals(anos.get(position))){
                     if(tarefas.get(i).getType().equals("Teste")){
                         testesList.add(tarefas.get(i));
                     }
