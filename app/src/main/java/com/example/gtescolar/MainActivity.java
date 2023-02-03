@@ -50,11 +50,9 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        dataInArrayList();
 
-
-        DataInArrayList();
-
-        OrderDB();
+        orderDB();
 
         for (int i = 0; i < database.size(); i++) {
             if (!years.contains(database.get(i).getYear())) {
@@ -71,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setAdapter(disciplinaAdapter);
     }
 
-    void OrderDB(){
+    void orderDB(){
         Collections.sort(database, new Comparator<Tarefa>() {
             @Override
             public int compare(Tarefa tarefa, Tarefa t1) {
@@ -160,8 +158,8 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    void DataInArrayList() {
-        Cursor cursor = mydb.ReadAllData();
+    void dataInArrayList() {
+        Cursor cursor = mydb.readAllData();
         if (cursor.getCount() == 0) {
             displayToast(getString(R.string.dbEmpty));
         } else {
